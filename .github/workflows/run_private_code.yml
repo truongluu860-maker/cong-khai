@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 21 * * *"  # chạy 04:00 VN hằng ngày (tương đương 21:00 UTC ngày trước)
     - cron: "0 8 * * *"   # chạy 15:00 VN hằng ngày (08:00 UTC)
-    
+    - cron: "0 14 * * *"   # chạy 15:00 VN hằng ngày (08:00 UTC)
   workflow_dispatch: {}
 
 
